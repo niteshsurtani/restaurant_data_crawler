@@ -1,0 +1,7 @@
+Running the Warehouse Code
+===========================
+
+
+1. If a new city is listed in Foodpanda or Zomato (or any other DB used by the warehouse), insert that city in the warehouse and give its mapping with the mapping_city in the city_mapping table.
+
+2. 

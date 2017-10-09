@@ -1,0 +1,18 @@
+============== API for crawling and storing Restaurant information ===================
+
+This is an API to be used as a reference for crawling data and storing it in database for categories: Movies, Groceries, Books and Mobiles.
+This project has the following directory structure:
+
+Food_API
+|-- database_schema
+|-- foodpanda_api
+|   |-- crawlers
+|   `-- mysql_API
+|-- zomato_api
+`-- warehouse
+
+1. Start with the foodpanda_api. It has two major components:
+   - Crawlers: This engine crawls content from the foodpanda website and returns the relevant data.
+   - Mysql_API: This creates a Mysql interface for CRUD (Create, Read, Update, Delete) operations. This engine stores, retrieves, updates and deletes the data from Mysql.
+
+2. This project similarly extracts data from Zomato and merges the data in a common Warehouse. Thus, warehouse database contains the union of the information retrieved from both Foodpanda and Zomato and is a richer source. In the later part of the project, we will develop a warehouse.
